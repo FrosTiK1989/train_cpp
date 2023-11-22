@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, world!" << std::endl;
+    int age = {34};
+    double weight = {62.4};
+    std::cout << "Name: " << "Denis" << std::endl;
+    std::cout << "Age: " << age << std::endl;
+    std::cout << "Weight: " << weight << std::endl;
     return 0;
 }
